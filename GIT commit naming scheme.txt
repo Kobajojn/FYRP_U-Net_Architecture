@@ -1,0 +1,22 @@
+GIT Commits formatting:
+
+NAME::TYPE(AREA): DESCRIPTION FUNCTIONAL?
+
+NAME 		- initials
+TYPE 		- 
+	build 		(change build tools or external dependencies),
+	chore 		(maintenance),
+	ci 		(continuous integration),
+	docs		(documentation update),
+	feat 		(new feature for end user),
+	fix 		(bug fix for end user),
+	perf 		(performance increase),
+	refactor	(rewrite - doesn't change core functionality),
+	revert 		(undo previous commits),
+	style 		(change the style of the code without changing the code),
+	test 		(changing the test tools without changing the functionality)
+AREA 		- usually function/class name of code fix
+DESCRIPTION 	- limit to 1-2 sentences - conciseness is king
+FUNCTIONAL?	- NF (Not Functional), F (Functional), ! (Breaking change)
+
+Semantic Branch naming. For more information refer to: "https://dev-tips.com/git/semantic-branch-names-and-commit-messages-in-git"
